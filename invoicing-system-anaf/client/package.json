@@ -1,0 +1,46 @@
+{
+  "name": "invoicing-system-anaf-client",
+  "version": "1.0.0",
+  "description": "Frontend for invoicing system with ANAF integration",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
+    "axios": "^1.6.0",
+    "zustand": "^4.4.0",
+    "@mui/material": "^5.14.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/lab": "^5.0.0-alpha.60",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "i18next": "^23.7.0",
+    "react-i18next": "^13.4.0",
+    "dayjs": "^1.11.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}
